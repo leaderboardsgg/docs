@@ -1,2 +1,1 @@
-# docs
-Documentation Github Pages Site
+docsify.js.org/#/quickstart
