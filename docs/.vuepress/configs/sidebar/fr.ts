@@ -6,8 +6,8 @@ export const fr: SidebarConfig = {
       text: 'A propos',
       children: [
         '/fr/about/README.md',
-        '/fr/about/faq.md',
-      ],
-    },
-  ],
+        '/fr/about/faq.md'
+      ]
+    }
+  ]
 }

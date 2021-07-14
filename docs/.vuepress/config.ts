@@ -1,19 +1,19 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
-import { sidebar, navbar } from "./configs";
+import { sidebar, navbar } from './configs'
 
 export default defineUserConfig<DefaultThemeOptions>({
   locales: {
     '/': {
       lang: 'en-US',
       title: 'speedrun.website',
-      description: 'Open source speedrunning website',
+      description: 'Open source speedrunning website'
     },
     '/fr/': {
       lang: 'fr-FR',
       title: 'speedrun.website',
-      description: 'Site de speedrun open source',
-    },
+      description: 'Site de speedrun open source'
+    }
   },
 
   themeConfig: {
@@ -32,7 +32,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         sidebar: sidebar.en,
 
         // page meta
-        editLinkText: 'Edit this page on GitHub',
+        editLinkText: 'Edit this page on GitHub'
       },
       '/fr/': {
         // navbar
@@ -47,8 +47,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         // page meta
         editLinkText: 'Editer cette page sur GitHub',
         lastUpdatedText: '<lastUpdatedText fr placeholder>',
-        contributorsText: '<contributorsText fr placeholder>',
-      },
+        contributorsText: '<contributorsText fr placeholder>'
+      }
     }
-  },
+  }
 })
