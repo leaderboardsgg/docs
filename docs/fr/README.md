@@ -2,10 +2,10 @@
 home: true
 heroImage: https://vuejs.org/images/logo.png
 heroText: speedrun.website
-tagline: An open source speedrunning website
+tagline: Site de speedrun open source
 actions:
-- text: About us
-  link: /about/
+- text: A propos
+  link: /fr/about/
   type: primary
 - text: Github
   link: https://github.com/speedrun-website
